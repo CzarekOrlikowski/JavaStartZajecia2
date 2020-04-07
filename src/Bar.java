@@ -23,7 +23,8 @@ public class Bar {
         System.out.println("Informacje o drinku");
         System.out.printf("Nazwa: %s\n", drink1.drinkName);
         System.out.printf("Cena: %s\n", drink1.drinkPrice);
-        System.out.printf("Czy zawiera alkohol: %s", drink1.drinkAlcohol);
+        System.out.printf("Składniki: %s\n", component1.componentName + ", " + component2.componentName + ", " + component3.componentName);
+        System.out.printf("Czy zawiera alkohol: %s\n", drink1.drinkAlcohol);
         System.out.printf("Wielkość: %s" + " ml", component1.componentQuantity + component2.componentQuantity + component3.componentQuantity);
     }
 }
