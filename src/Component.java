@@ -1,4 +1,4 @@
 public class Component {
     String componentName;
-    int componentQuantity;
+    int componentQuantity; // przyjmuję dla uproszczenia, że podawać będę ml, czyli liczby całkowite
 }
